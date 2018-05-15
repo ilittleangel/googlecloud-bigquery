@@ -35,7 +35,7 @@ java -cp ~/development/googlecloud-bigquery/build/libs/googlecloud-bigquery-1.0-
 * [CLI installation and running](#cli-installation-and-running)
 * [Authorization](#authorization)
 * [Metadata](#metadata)
-* [Endopints](#endopints)
+* [General Endpoints](#general-endpoints)
 * [Testing](#testing)
     * [Tables `list`](#tables-list)
     * [Tables `get`](#tables-get)
@@ -83,7 +83,7 @@ ACCESS_TOKEN="$(gcloud auth application-default print-access-token)"
 | google-analytics | 112233445 | ga_sessions_intraday_yyyymmdd |
 
 
-### General Endopints
+### General Endpoints
 
 ###### List of main methods
 ```js
@@ -94,7 +94,6 @@ GET  https://www.googleapis.com/bigquery/v2/projects/projectId/datasets/datasetI
 GET  https://www.googleapis.com/bigquery/v2/projects/projectId/datasets/datasetId/tables/tableId/data
 GET  https://www.googleapis.com/bigquery/v2/projects/projectId/jobs
 POST https://www.googleapis.com/upload/bigquery/v2/projects/projectId/jobs
-GET  https://www.googleapis.com/bigquery/v2/projects/projectId/jobs/jobId
 GET  https://www.googleapis.com/bigquery/v2/projects/projectId/jobs/jobId
 POST https://www.googleapis.com/bigquery/v2/projects/projectId/jobs/jobId/cancel
 POST https://www.googleapis.com/bigquery/v2/projects/projectId/queries
